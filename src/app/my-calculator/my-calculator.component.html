@@ -1,0 +1,18 @@
+<div class="calculator">
+   <h2 class="calculator-title">Kalkulyator</h2>
+   
+   <div class="calculator-container">
+    <input type="number" class="calculator-input"  ngModel="first">
+    <select class="calculator-select" ngModule="operation">
+        <option [value]="operation" *ngFor="let operation of operations">{{operation}}</option>
+    </select>
+    <input type="number" class="calculator-input" ngModel="second">
+   </div>
+
+
+    <span class="calculator-result">Natija: <span>{{result? result:"Natija"}}</span></span>
+
+    <button (click)="calc()" class="calculator-btn">Hisoblash</button>
+
+
+</div>

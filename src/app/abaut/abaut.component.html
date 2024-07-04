@@ -1,0 +1,18 @@
+<!-- about.component.html -->
+<div class="about-container">
+  <h1>About Me</h1>
+  <div class="profile-picture">
+    <img src="https://cdn.gamma.app/kmfgy5jhq0gnpno/generated-images/WBXIFKYEjzCEStGDyvwsu.jpg" alt="Profile Picture">
+  </div>
+
+  <div class="card" *ngFor="let myBios of myBio">
+    <div class="bio">
+      <h3>{{ myBios.BioTitle}}</h3>
+      
+      <div class="additional-info">
+        
+        <p>{{ myBios.description }}</p>
+      
+    </div>
+  </div>
+  </div>

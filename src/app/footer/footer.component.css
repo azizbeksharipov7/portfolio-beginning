@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 60px;
+    background-color: #1c2680;
+    padding: 40px 20px 20px 30px;
+}
+
+.footer-img { 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-img-git{
+    background-color: azure;
+    border-radius: 40%;
+    
+}
+
+.footer-img :hover{
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+.footer-elem{
+    display: flex;
+    gap: 8px;
+}
+.owner{
+    color: white;
+}

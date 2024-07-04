@@ -1,0 +1,37 @@
+/* about.component.css */
+.about-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile-picture {
+  margin: 20px auto;
+}
+
+.profile-picture img {
+  border-radius: 20px;
+  width: 300px;
+  height: 350px;
+}
+
+.bio {
+  margin: 20px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-direction: column;
+}
+
+
+/* .biography{
+    
+  } */
+
+/* .additional-info {
+    margin: 20px;
+  }
+   */
